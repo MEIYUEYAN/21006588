@@ -1,4 +1,4 @@
-##Meiyue Yan
+## Meiyue Yan
 ### I picked my favorite top three labs of Creative Making: Advanced Physical Computing this semester.
 
 ### 01
