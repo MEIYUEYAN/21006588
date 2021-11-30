@@ -1,9 +1,9 @@
-I picked my favorite top three labs of Creative Making: Advanced Physical Computing this semester.
+## I picked my favorite top three labs of Creative Making: Advanced Physical Computing this semester.
 
-# 01
+### 01
 Twist
 
-LAB01 https://youtu.be/9s_FqqUYtQA-automatic [GitHub] (http:github.com)
+* LAB01 https://youtu.be/9s_FqqUYtQA-automatic [GitHub] (http:github.com)
 
 // Include the Servo library 
 #include <Servo.h> 
@@ -30,10 +30,10 @@ void loop(){
 
 
 
-02
+### 02
 A steering gear accidentally tripped over
 
-LAB02 https://youtu.be/2heFwW8Eot8 -automatic [GitHub] (http:github.com)
+* LAB02 https://youtu.be/2heFwW8Eot8 -automatic [GitHub] (http:github.com)
 
 
 const int switchPin = 2;
@@ -61,10 +61,10 @@ else {
 
   }
 
-03
+### 03
 Singing little guy
 
-LAB03 https://youtu.be/tH6JvACGWYI -automatic [GitHub] (http:github.com)
+* LAB03 https://youtu.be/tH6JvACGWYI -automatic [GitHub] (http:github.com)
 
 
 //#include "pitches.h"
@@ -298,21 +298,21 @@ for(int b=0; b<10; b++){
 }
 
 
-04
+### 04
 The button and the light
-LAB01 https://youtu.be/tII9yxGyPq0 -automatic [GitHub] (http:github.com)
+* https://youtu.be/tII9yxGyPq0 -automatic [GitHub] (http:github.com)
 
-05 
+### 05 
 Soft robot 
-https://youtu.be/n8acGfPKyiY -automatic [GitHub] (http:github.com)
+* https://youtu.be/n8acGfPKyiY -automatic [GitHub] (http:github.com)
 
 
-06 
+### 06 
 Speakers and noise
-https://youtu.be/deLO6zvLb-I -automatic [GitHub] (http:github.com)
+* https://youtu.be/deLO6zvLb-I -automatic [GitHub] (http:github.com)
 
 
-07
+### 07
 The green light 
-https://youtu.be/e7c4p7Of0Iw -automatic [GitHub] (http:github.com)
+* https://youtu.be/e7c4p7Of0Iw -automatic [GitHub] (http:github.com)
 
