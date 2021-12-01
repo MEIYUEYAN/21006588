@@ -1,0 +1,57 @@
+int soundSensor = A5;
+int LED = 3;
+
+void setup()
+{
+
+  pinMode (soundSensor, INPUT);
+  pinMode (LED, OUTPUT);
+}
+
+void loop()
+{
+  int statusSensor = analogRead (soundSensor);
+  
+  //int statusSensor = analogRead(A0);
+  //delay(2);
+  
+  //Read the voltage coming from the ultrasonic sensor
+  //float voltage = statusSensor * (5.0/1023.0);
+  
+  //Serial.println(statusSensor);
+  if (statusSensor > 400 && statusSensor < 500)
+    {
+      //find the modulo of sernsorValue
+      int modulo = statusSensor%10;
+    
+      //pattern initiation
+      String pattern = "*";
+      String init_patt = ""; 
+
+       
+      String pattern2 = "";
+      String init_patt2 = ""; 
+
+      
+      //make pattern
+      for (int i = 0; i < modulo; i++)
+      {
+        init_patt = init_patt + pattern + pattern2 + init_patt2  ;
+      }
+    
+       Serial.println(init_patt);
+    }
+    
+  if (statusSensor < 400 || statusSensor > 500)
+  {
+    digitalWrite(LED, HIGH);
+    delay(20);
+  }
+  
+  else
+  {
+  digitalWrite(LED, LOW);
+  delay(20);
+  }
+
+}
